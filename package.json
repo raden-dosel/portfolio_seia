@@ -1,0 +1,15 @@
+{
+  "name": "static-seia",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SEIA Security Installation Services - Portfolio and Website",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'No build required for static site'",
+    "lint": "node -c server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
